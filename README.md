@@ -7,6 +7,9 @@ https://tinyurl.com/2s3yxjnr
 https://github.com/toarnabtrainer/Comcast_Neural_Network_February_2024
 or http://tinyurl.com/3bhhpr73
 
+**PDF on Computer Algorithm by Ellis Horowitz, Sartaj Sahni, Sanguthevar Rajasekaran:**<br>
+https://kailash392.files.wordpress.com/2019/02/fundamentalsof-computer-algorithms-by-ellis-horowitz.pdf
+
 **Python Download Link:**<br>
 **Anaconda Download Link:** <br>
 https://www.anaconda.com/products/distribution
