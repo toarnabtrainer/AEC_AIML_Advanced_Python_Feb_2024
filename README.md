@@ -25,6 +25,12 @@ select emp_city, sum(emp_salary) tot_sal, max(emp_salary) max_sal, min(emp_salar
 from employee
 group by emp_city
 order by emp_city asc;
+
+select emp_name, emp_salary from employee;
+update employee set emp_salary = emp_salary + 500;
+select emp_name, emp_salary from employee;
+update employee set emp_salary = emp_salary + 500 where emp_city = 'Kolkata';
+select emp_name, emp_city, emp_salary from employee;
 </pre>
 
 
