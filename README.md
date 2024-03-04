@@ -31,6 +31,15 @@ update employee set emp_salary = emp_salary + 500;
 select emp_name, emp_salary from employee;
 update employee set emp_salary = emp_salary + 500 where emp_city = 'Kolkata';
 select emp_name, emp_city, emp_salary from employee;
+
+select * from employee;
+-- delete all the records having salary more than 40000
+delete from employee where emp_salary > 40000;
+select * from employee;
+
+-- delete all the records where emp_city = 'Mumbai'
+delete from employee where emp_city = 'Mumbai';
+select * from employee;
 </pre>
 
 
