@@ -7,6 +7,28 @@ https://tinyurl.com/2s3yxjnr
 https://github.com/toarnabtrainer/Comcast_Neural_Network_February_2024
 or http://tinyurl.com/3bhhpr73
 
+<pre>
+pragma table_info(employee);
+select * from employee;
+# Fetch city wise average salaries for all the employees
+select emp_city from employee;
+select distinct emp_city from employee;
+select distinct emp_city from employee order by emp_city;
+select distinct emp_city from employee order by emp_city asc;
+select distinct emp_city from employee order by emp_city desc;
+select count(emp_salary), max(emp_salary), min(emp_salary), sum(emp_salary), avg(emp_salary)
+from employee;
+select count(emp_salary) cnt_sal, max(emp_salary) max_sal, min(emp_salary) min_sal,
+       sum(emp_salary) tot_sal, avg(emp_salary) avg_sal
+from employee;
+select emp_city, sum(emp_salary) tot_sal, max(emp_salary) max_sal, min(emp_salary) min_sal
+from employee
+group by emp_city
+order by emp_city asc;
+</pre>
+
+
+
 **PDF on Computer Algorithm by Ellis Horowitz, Sartaj Sahni, Sanguthevar Rajasekaran:**<br>
 https://kailash392.files.wordpress.com/2019/02/fundamentalsof-computer-algorithms-by-ellis-horowitz.pdf
 
