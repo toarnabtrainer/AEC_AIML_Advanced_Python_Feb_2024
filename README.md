@@ -7,6 +7,10 @@ https://tinyurl.com/2s3yxjnr
 https://github.com/toarnabtrainer/Comcast_Neural_Network_February_2024
 or http://tinyurl.com/3bhhpr73
 
+**Post-Test Exam Links:** <br>
+1. **Test on Python Scripting (1):** https://bit.ly/3l5JkFk-
+2. **Test on Python Scripting (2):** https://bit.ly/3aHFQXb-
+
 <pre>
 pragma table_info(employee);
 select * from employee;
